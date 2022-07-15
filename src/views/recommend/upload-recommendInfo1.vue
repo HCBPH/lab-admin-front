@@ -23,7 +23,7 @@
           <el-button type="primary" @click="addPlaceholder()">添加图片占位符</el-button>
         </el-form-item>
         <el-form-item label="标签">
-          <el-input style="width: 300px" v-model="recommendForm.brief" placeholder="请输入标签"></el-input>
+          <el-input style="width: 300px" v-model="recommendForm.tag" placeholder="请输入标签"></el-input>
         </el-form-item>
         <el-form-item>
             <el-button type="primary" @click="submitAdd()">立即创建</el-button>

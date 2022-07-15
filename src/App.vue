@@ -26,7 +26,7 @@
               <span>用户管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/user"><i class="el-icon-menu" />用户信息</el-menu-item>
+              <el-menu-item index="/user"><i class="el-icon-user-solid" />用户信息</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="1">
@@ -34,7 +34,7 @@
               <span>投诉管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/accuse"><i class="el-icon-menu" />投诉信息</el-menu-item>
+              <el-menu-item index="/accuse"><i class="el-icon-s-order" />投诉信息</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="2">
@@ -42,8 +42,8 @@
               <span>推荐管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/recommend"><i class="el-icon-picture" />推荐信息</el-menu-item>
-              <el-menu-item index="/recommend_add"><i class="el-icon-picture" />上传推荐</el-menu-item>
+              <el-menu-item index="/recommend"><i class="el-icon-s-management" />推荐信息</el-menu-item>
+              <el-menu-item index="/recommend_add"><i class="el-icon-edit-outline" />上传推荐</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="3">
@@ -51,8 +51,8 @@
               <span>店铺管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/shop_info"><i class="el-icon-menu" />店铺信息</el-menu-item>
-              <el-menu-item index="/shop_add"><i class="el-icon-menu" />上传店铺</el-menu-item>
+              <el-menu-item index="/shop_info"><i class="el-icon-s-shop" />店铺信息</el-menu-item>
+              <el-menu-item index="/shop_add"><i class="el-icon-edit-outline" />上传店铺</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           

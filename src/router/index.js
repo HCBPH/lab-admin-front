@@ -25,17 +25,17 @@ const router = createRouter({
     {
       path: '/shop_info',
       name: 'shop_info',
-      component: () => import(/* webpackChunkName: "account" */ '../views/shop/shopInfo.vue')
+      component: () => import(/* webpackChunkName: "shop_info" */ '../views/shop/shopInfo.vue')
     },
     {
       path: '/shop_add',
       name: 'shop_add',
-      component: () => import(/* webpackChunkName: "account" */ '../views/shop/upload-shopInfo1.vue')
+      component: () => import(/* webpackChunkName: "shop_add" */ '../views/shop/upload-shopInfo1.vue')
     },
     {
       path: '/recommend_add',
       name: 'recommend_add',
-      component: () => import(/* webpackChunkName: "account" */ '../views/recommend/upload-recommendInfo1.vue')
+      component: () => import(/* webpackChunkName: "recommend_add" */ '../views/recommend/upload-recommendInfo1.vue')
     },
     {
       path: '/user',

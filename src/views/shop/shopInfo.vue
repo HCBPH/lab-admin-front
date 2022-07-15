@@ -3,7 +3,7 @@
     <template #header>
       <div class="header">
         <!-- <span>{{tableData}}</span> -->
-        <span>店铺信息</span>
+        <!-- <span>店铺信息</span> -->
       </div>
     </template>
     <el-table
